@@ -1,0 +1,39 @@
+/* HEADINGS */
+
+body {
+    font-size: 100%;
+    line-height: 1.4;
+    font-family: freight-text-pro, serif;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    margin: .5em 0;
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 700;
+}
+
+h1 { 
+    font-size: 3em;
+    line-height: 1;
+}
+
+h2 { 
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+h3 { 
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+/* Type Specimen */
+.mainhead {
+    font-size: 6em;
+}
+.subhead {
+    color: $color-accent;
+}
+
+p{ max-width: 35em;}

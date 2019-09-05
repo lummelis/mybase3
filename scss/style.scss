@@ -1,10 +1,8 @@
 // VARIABLES
-$bodybackground:#333;
+    $bodyfont-family: freight-text-pro, serif;
+    $headingfont-family: franklin-gothic-urw, sans-serif;
+    $color-accent: #fa0;
 
 //IMPORT PARTIALS
 @import "partials/toc";
-
-body { 
-    background-color: $bodybackground;
-    color: white;
-}
+@import "partials/typography";
