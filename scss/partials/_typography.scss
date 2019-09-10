@@ -1,39 +1,59 @@
-/* HEADINGS */
+/* BODY */
 
 body {
+    font-family: $bodyfont-family;
     font-size: 100%;
     line-height: 1.4;
-    font-family: freight-text-pro, serif;
+    color: $color-text-body;
+}
+
+/* HEADINGs */
+
+h1, h2, h3 {
+    font-family: $headingfont-family;
+    margin: .5em 0;
     font-weight: 400;
 }
 
-h1, h2, h3 {
-    margin: .5em 0;
-    font-family: franklin-gothic-urw, sans-serif;
-    font-weight: 700;
-}
-
-h1 { 
+h1 {
     font-size: 3em;
     line-height: 1;
 }
-
-h2 { 
+h2 {
     font-size: 2em;
-    line-height: 1.2;
+    line-height: 1.1;
 }
-
-h3 { 
+h3 {
     font-size: 1.5em;
     line-height: 1.2;
 }
 
-/* Type Specimen */
-.mainhead {
-    font-size: 6em;
-}
-.subhead {
-    color: $color-accent;
+p {
+    max-width: 35em; 
 }
 
-p{ max-width: 35em;}
+/* LINKS */
+a {color: $color-links;}
+a:hover {color: $color-dark-links;}
+
+
+/* Horizontal Rules */
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(0,0,0,.15);
+    margin: 3em 0;
+}
+
+/* TYPE SPECIMEN */
+.mainhead {
+    font-size: 6em;
+    color: $color-accent;
+    margin-bottom: 0;
+}
+
+.subhead {
+    font-family: $bodyfont-family;
+    color: $color-midgrey;
+    margin-bottom: 1em;
+}

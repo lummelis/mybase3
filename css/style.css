@@ -10,17 +10,18 @@ css table of contents
 
 
 -------------------------------- */
-/* HEADINGS */
+/* BODY */
 body {
+  font-family: freight-text-pro, serif;
   font-size: 100%;
   line-height: 1.4;
-  font-family: freight-text-pro, serif;
-  font-weight: 400; }
+  color: rgba(0, 0, 0, 0.85); }
 
+/* HEADINGs */
 h1, h2, h3 {
-  margin: .5em 0;
   font-family: franklin-gothic-urw, sans-serif;
-  font-weight: 700; }
+  margin: .5em 0;
+  font-weight: 400; }
 
 h1 {
   font-size: 3em;
@@ -28,18 +29,65 @@ h1 {
 
 h2 {
   font-size: 2em;
-  line-height: 1.2; }
+  line-height: 1.1; }
 
 h3 {
   font-size: 1.5em;
   line-height: 1.2; }
 
-/* Type Specimen */
-.mainhead {
-  font-size: 6em; }
-
-.subhead {
-  color: #fa0; }
-
 p {
   max-width: 35em; }
+
+/* LINKS */
+a {
+  color: #999; }
+
+a:hover {
+  color: #555; }
+
+/* Horizontal Rules */
+hr {
+  border: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.15);
+  margin: 3em 0; }
+
+/* TYPE SPECIMEN */
+.mainhead {
+  font-size: 6em;
+  color: #fa0;
+  margin-bottom: 0; }
+
+.subhead {
+  font-family: freight-text-pro, serif;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em; }
+
+/* buttons */
+button,
+.button {
+  font-size: inherit;
+  line-height: 1;
+  background-color: #999;
+  font-size: inherit;
+  color: #fff;
+  display: inline-block;
+  padding: 1em;
+  margin: .5em;
+  border: 1px solid #999;
+  border-radius: .5em;
+  cursor: pointer; }
+  button:hover,
+  .button:hover {
+    background-color: #555;
+    border: 1px solid #555;
+    color: #fff; }
+  button.alt,
+  .button.alt {
+    color: #555;
+    background-color: #fff; }
+    button.alt:hover,
+    .button.alt:hover {
+      background-color: #555;
+      color: #fff;
+      border-color: #555; }

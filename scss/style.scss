@@ -1,8 +1,15 @@
 // VARIABLES
     $bodyfont-family: freight-text-pro, serif;
     $headingfont-family: franklin-gothic-urw, sans-serif;
+
+// VARIABLES
+    $color-text-body: rgba(0,0,0,.85);
     $color-accent: #fa0;
+    $color-midgrey: rgba(0,0,0,.5);
+    $color-links: #999;
+    $color-dark-links: #555;
 
 //IMPORT PARTIALS
 @import "partials/toc";
 @import "partials/typography";
+@import "partials/buttons";
