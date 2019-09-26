@@ -3,11 +3,12 @@
     $headingfont-family: franklin-gothic-urw, sans-serif;
 
 // VARIABLES
-    $color-text-body: rgba(0,0,0,.85);
+    $color-text-body: #000000d9;
     $color-accent: #fa0;
     $color-midgrey: rgba(0,0,0,.5);
     $color-links: #999;
     $color-dark-links: #555;
+
 
 
 // Breakpoints
@@ -22,3 +23,4 @@ $breakpoint-large: 1250px;
 @import "partials/media";
 @import "partials/layout";
 @import "partials/grid";
+@import "partials/structure";
