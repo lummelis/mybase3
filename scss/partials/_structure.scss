@@ -37,7 +37,9 @@
         padding: 1em;
     }
 }
-
+section {
+    padding: 6em 0;
+}
 .hero {
     background-color: $color-accent;
     opacity: .3;

@@ -50,7 +50,34 @@ a:hover {
   border: 0;
   height: 1px;
   background: rgba(0, 0, 0, 0.15);
-  margin: 3em 0; }
+  margin: 4em 0; }
+
+/* Helper */
+.sectionhead {
+  font-family: freight-text-pro, serif;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  margin-bottom: 1em; }
+
+.meta {
+  display: block;
+  font-size: .8em;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 0 2em 0; }
+
+._line h3 {
+  text-align: center; }
+
+._line:after {
+  content: "";
+  border-bottom: 2px solid #ccc;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 3em; }
 
 /* TYPE SPECIMEN */
 .mainhead {
@@ -198,6 +225,9 @@ body {
 .site-nav a {
   display: block;
   padding: 1em; }
+
+section {
+  padding: 6em 0; }
 
 .hero {
   background-color: #fa0;
