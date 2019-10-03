@@ -63,16 +63,13 @@ a:hover {color: $color-dark-links;}
     margin: 0 0 2em 0;
 }
 
-._line h3 {
-    text-align: center; 
-}
-
-  ._line:after {
+  .sectionhead:after {
     content: "";
     border-bottom: 2px solid #ccc;
     display: block;
     width: 100px;
     margin: 0 auto;
+    margin-top: 1em;
     margin-bottom: 3em;} //small
 // 
 // @media (min-width: $breakpoint-large) {

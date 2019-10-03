@@ -8,14 +8,38 @@ $gutter-width: 2%;
     margin-bottom: $gutter-width;
 }
 
+// @media (max-width: $breakpoint-small  -1) {
+//     .row {
+//         margin-bottom: 3em;
+//     }
+// }
 //flex box
 @media (min-width: $breakpoint-small) {
     .row {
         display: flex;
         justify-content: center;
+        align-items: center;
         margin-left: -$gutter-width/2;
         margin-right: -$gutter-width/2;
+    
     }
+
+    &.swap {
+        flex-direction: row-reverse;
+    }
+    // &.center {
+    //     display: block;
+    //     .column {
+    //         margin-left: auto;
+    //         margin-right: auto;
+    //     }
+
+    
+    &.center {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .column { 
         // color: red;
         flex-grow: 1;
@@ -27,6 +51,8 @@ $gutter-width: 2%;
     &.two-thirds {width: 66.6666%-$gutter-width;}
     &.three-fourths {width: 75%-$gutter-width;}
 }
+
+
 
 //css grid
 // @media (min-width: $breakpoint-small) {
